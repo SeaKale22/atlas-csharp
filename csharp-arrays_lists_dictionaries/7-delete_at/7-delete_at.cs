@@ -15,7 +15,7 @@ class List
         {
             myList[i] = myList[i + 1];
         }
-        myList.RemoveAt(myList.Count - 1);
+        myList.Remove(myList[myList.Count - 1]);
         return myList;
     }
 }
