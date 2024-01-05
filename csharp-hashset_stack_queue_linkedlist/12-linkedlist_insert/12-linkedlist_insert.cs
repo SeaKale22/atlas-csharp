@@ -9,6 +9,11 @@ class LList
         LinkedListNode<int> new_node;
         while (current_node != null)
         {
+            if (current_node.Value == n)
+            {
+                new_node = myLList.AddAfter(current_node, n);
+                return new_node;
+            }
             if (current_node.Value < n && current_node.Next == null)
             {
                 new_node = myLList.AddAfter(current_node, n);
