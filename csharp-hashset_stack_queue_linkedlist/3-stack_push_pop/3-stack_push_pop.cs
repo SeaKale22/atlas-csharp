@@ -17,7 +17,7 @@ class MyStack
             Console.WriteLine($"Top item: {aStack.Peek()}");
         }
 
-        Console.WriteLine($"Stack contains {search}: {aStack.Contains(search)}");
+        Console.WriteLine($"Stack contains \"{search}\": {aStack.Contains(search)}");
 
         if (aStack.Contains(search))
         {
