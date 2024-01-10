@@ -6,12 +6,12 @@ class Matrix
     {
         int rows = myMatrix.GetLength(0);
         int colms = myMatrix.GetLength(1);
-        int[,] new_matix = new int[colms, rows];
-        for (int i = 0; i < colms; i++)
+        int[,] new_matix = new int[rows, colms];
+        for (int i = 0; i < rows; i++)
         {
-            for (int j = 0; j < rows; j++)
+            for (int j = 0; j < colms; j++)
             {
-                new_matix[j, i] = myMatrix[j, i] * myMatrix[j, i];
+                new_matix[i, j] = myMatrix[i, j] * myMatrix[i, j];
             }
         }
         return new_matix;
