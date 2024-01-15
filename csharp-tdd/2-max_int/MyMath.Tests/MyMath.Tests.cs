@@ -37,7 +37,7 @@ namespace MyMath.Tests
         [Test]
         public void Max_ContainsNegitive_ReturnsMaxInt()
         {
-            List<int> nums = new List<int> { 2, -4, 8, 3, 1};
+            List<int> nums = new List<int> { 2, -9, 8, 3, 1};
             int max = Operations.Max(nums);
             Assert.AreEqual(8, max);        
         }
