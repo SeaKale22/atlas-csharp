@@ -16,7 +16,6 @@ namespace MyMath.Tests
             int b = 4;
 
             int result = Operations.Add(a, b);
-
             Assert.AreEqual(7, result);
         }
 

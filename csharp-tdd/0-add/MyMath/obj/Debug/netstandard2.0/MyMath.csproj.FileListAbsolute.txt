@@ -1,0 +1,10 @@
+/home/seakale/atlas_work/atlas-csharp/csharp-tdd/0-add/MyMath/bin/Debug/netstandard2.0/MyMath.xml
+/home/seakale/atlas_work/atlas-csharp/csharp-tdd/0-add/MyMath/bin/Debug/netstandard2.0/MyMath.deps.json
+/home/seakale/atlas_work/atlas-csharp/csharp-tdd/0-add/MyMath/bin/Debug/netstandard2.0/MyMath.dll
+/home/seakale/atlas_work/atlas-csharp/csharp-tdd/0-add/MyMath/bin/Debug/netstandard2.0/MyMath.pdb
+/home/seakale/atlas_work/atlas-csharp/csharp-tdd/0-add/MyMath/obj/Debug/netstandard2.0/MyMath.csprojAssemblyReference.cache
+/home/seakale/atlas_work/atlas-csharp/csharp-tdd/0-add/MyMath/obj/Debug/netstandard2.0/MyMath.csproj.CoreCompileInputs.cache
+/home/seakale/atlas_work/atlas-csharp/csharp-tdd/0-add/MyMath/obj/Debug/netstandard2.0/MyMath.AssemblyInfoInputs.cache
+/home/seakale/atlas_work/atlas-csharp/csharp-tdd/0-add/MyMath/obj/Debug/netstandard2.0/MyMath.AssemblyInfo.cs
+/home/seakale/atlas_work/atlas-csharp/csharp-tdd/0-add/MyMath/obj/Debug/netstandard2.0/MyMath.dll
+/home/seakale/atlas_work/atlas-csharp/csharp-tdd/0-add/MyMath/obj/Debug/netstandard2.0/MyMath.pdb

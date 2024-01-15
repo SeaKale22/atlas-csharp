@@ -20,13 +20,13 @@
           "/home/seakale/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net60"
+          "netcoreapp2.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net60": {
+          "netcoreapp2.1": {
             "projectReferences": {
               "/home/seakale/atlas_work/atlas-csharp/csharp-tdd/0-add/MyMath/MyMath.csproj": {
                 "projectPath": "/home/seakale/atlas_work/atlas-csharp/csharp-tdd/0-add/MyMath/MyMath.csproj"
@@ -41,21 +41,34 @@
         }
       },
       "frameworks": {
-        "net60": {
+        "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
             },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
             "NUnit": {
               "target": "Package",
-              "version": "[4.0.1, )"
+              "version": "[3.12.0, )"
             },
             "NUnit3TestAdapter": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[3.16.1, )"
             }
-          }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
         }
       }
     },
