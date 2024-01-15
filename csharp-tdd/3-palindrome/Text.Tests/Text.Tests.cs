@@ -43,5 +43,12 @@ namespace Text.Tests
             string str = "Welp, I got nothing; same as you";
             Assert.IsFalse(Str.IsPalindrome(str));
         }
+
+        [Test]
+        public void IsPalindrome_EmptyString_ReturnsTrue()
+        {
+            string str = "";
+            Assert.IsTrue(Str.IsPalindrome(str));
+        }
     }
 }
