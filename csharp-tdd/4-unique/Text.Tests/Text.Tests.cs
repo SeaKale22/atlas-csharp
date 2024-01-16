@@ -42,11 +42,11 @@ namespace Text.Tests
         }
 
         [Test]
-        public void UniqueChar_EmptyStr_ReturnsZero()
+        public void UniqueChar_EmptyStr_Neg1()
         {
-            string str = " ";
+            string str = "";
             int index = Str.UniqueChar(str);
-            Assert.AreEqual(0, index);
+            Assert.AreEqual(-1, index);
         }
     }
 }
