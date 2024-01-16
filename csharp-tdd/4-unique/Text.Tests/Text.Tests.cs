@@ -32,5 +32,21 @@ namespace Text.Tests
             int index = Str.UniqueChar(str);
             Assert.AreEqual(-1, index);
         }
+
+        [Test]
+        public void UniqueChar_UniqueIsLast_RetunrsIndex()
+        {
+            string str = "aabbc";
+            int index = Str.UniqueChar(str);
+            Assert.AreEqual(4, index);
+        }
+
+        [Test]
+        public void UniqueChar_EmptyStr_ReturnsZero()
+        {
+            string str = "";
+            int index = Str.UniqueChar(str);
+            Assert.AreEqual(0, index);
+        }
     }
 }
