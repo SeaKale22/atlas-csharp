@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Text</name>
+    </assembly>
+    <members>
+        <member name="T:Text.Str">
+            <summary>
+            String opertations
+            </summary>
+        </member>
+        <member name="M:Text.Str.CamelCase(System.String)">
+            <summary> How Many Words in string </summary>
+        </member>
+    </members>
+</doc>
