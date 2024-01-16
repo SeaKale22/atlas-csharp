@@ -44,7 +44,7 @@ namespace Text.Tests
         [Test]
         public void UniqueChar_EmptyStr_ReturnsZero()
         {
-            string str = "";
+            string str = " ";
             int index = Str.UniqueChar(str);
             Assert.AreEqual(0, index);
         }

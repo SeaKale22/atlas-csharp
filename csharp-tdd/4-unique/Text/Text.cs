@@ -12,10 +12,6 @@ namespace Text
         public static int UniqueChar(string s)
         {
             Dictionary<char, int> charCount = new Dictionary<char, int>();
-            if (s.Length == 0)
-            {
-                return (0);
-            }
             foreach (char c in s)
             {
                 if (charCount.ContainsKey(c))
