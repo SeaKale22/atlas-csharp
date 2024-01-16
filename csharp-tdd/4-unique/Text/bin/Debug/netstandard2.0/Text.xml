@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Text</name>
+    </assembly>
+    <members>
+        <member name="T:Text.Str">
+            <summary>
+            Operations for strings
+            </summary>
+        </member>
+        <member name="M:Text.Str.UniqueChar(System.String)">
+            <summary> returns the index of the first non-repeating character of a string </summary>
+        </member>
+    </members>
+</doc>
