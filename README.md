@@ -8,3 +8,4 @@
 ## Project 6: C# - Structs, Enumerations
 ## Project 7: C# - Classes and Namespaces
 ## Project 8: C# - Test Driven Development
+## Project 9: C# - Inheritance
