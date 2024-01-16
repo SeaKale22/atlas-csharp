@@ -17,6 +17,14 @@ namespace Text.Tests
         }
 
         [Test]
+        public void CamelCase_TwoWords_ReturnsCount()
+        {
+            int count = Str.CamelCase("thisString");
+            Assert.AreEqual(2, count);
+        }
+
+
+        [Test]
         public void CamelCase_MultiWord_ReturnsCount()
         {
             int count = Str.CamelCase("thisIsAString");
