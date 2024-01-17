@@ -98,11 +98,11 @@ class Decoration : Base, IInteractive, IBreakable
         }
         else if (isQuestItem)
         {
-            Console.WriteLine($"You look at the {this.name}. There is a key inside");
+            Console.WriteLine($"You look at the {this.name}. There is a key inside.");
         }
         else if (!isQuestItem)
         {
-            Console.WriteLine($"You look at the {this.name}. Not much to see here");
+            Console.WriteLine($"You look at the {this.name}. Not much to see here.");
         }
     }
 
