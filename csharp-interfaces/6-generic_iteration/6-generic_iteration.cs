@@ -159,16 +159,16 @@ class Objs<T> : IEnumerable<T>
 
     public void Add(T obj)
     {
-        objects.Add(obj);
+        this.objects.Add(obj);
     }
 
     ///<summary> Implement getenumerator </summary>
     public IEnumerator<T> GetEnumerator()
     {
-        return objects.GetEnumerator();
+        return this.objects.GetEnumerator();
     }
 
-    public IEnumerator IEnumerable.GetEnumerator()
+    IEnumerator IEnumerable.GetEnumerator()
     {
         return this.GetEnumerator();
     }
