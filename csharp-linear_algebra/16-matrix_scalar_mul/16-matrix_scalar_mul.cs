@@ -14,13 +14,13 @@ class MatrixMath
             return new double[,] { { -1 } };
         }
 
-        double[,] result = new double[rows1, cols1];
+        double[,] result = new double[rows, cols];
 
-        for (int i = 0; i < rows1; i++)
+        for (int i = 0; i < rows; i++)
         {
-            for (int j = 0; j < cols1; j++)
+            for (int j = 0; j < cols; j++)
             {
-                result[i, j] = matrix1[i, j] * scalar;
+                result[i, j] = matrix[i, j] * scalar;
             }
         }
         return result;
