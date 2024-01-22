@@ -22,7 +22,7 @@ class MatrixMath
 
         for (int i = 0; i < rows1; i++)
         {
-            (int j = 0; j < cols1; j++)
+            for (int j = 0; j < cols1; j++)
             {
                 result[i, j] = matrix1[i, j] + matrix2[i, j];
             }
