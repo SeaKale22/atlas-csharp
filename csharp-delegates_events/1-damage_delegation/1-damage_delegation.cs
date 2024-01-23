@@ -50,7 +50,7 @@ public class Player
             heal = 0;
         }
         this.hp += heal;;
-        Console.WriteLine($"{this.name} heals {heal} hp!");
+        Console.WriteLine($"{this.name} heals {heal} HP!");
     }
 }
 
