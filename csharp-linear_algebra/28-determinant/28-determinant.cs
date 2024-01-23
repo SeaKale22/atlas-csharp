@@ -14,7 +14,7 @@ class MatrixMath
             return -1;
         }
 
-        double result;
+        double result = -1;
 
         if (rows == 2)
         {
