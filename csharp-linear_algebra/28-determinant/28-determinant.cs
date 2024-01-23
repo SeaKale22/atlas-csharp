@@ -28,6 +28,6 @@ class MatrixMath
             result = a * (e * i - f * h) - b * (d * i - f * g) + c * (d * h - e * g);
         }
 
-        return  return Math.Round(result, 2);;
+        return Math.Round(result, 2);
     }
 }
