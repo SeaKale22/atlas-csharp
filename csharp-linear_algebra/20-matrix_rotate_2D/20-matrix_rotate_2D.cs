@@ -14,18 +14,18 @@ class MatrixMath
             return new double[,] { { -1 } };
         }
 
-        double cosTheta = Math.Cos(angleRadians);
-        double sinTheta = Math.Sin(angleRadians)
+        double cosTheta = Math.Cos(angle);
+        double sinTheta = Math.Sin(angle);
 
         double a = matrix[0, 0];
         double b = matrix[0, 1];
         double c = matrix[1, 0];
         double d = matrix[1, 1];
 
-        double aNew = cosTheta * a - sinTheta * b;
-        double bNew = sinTheta * a + cosTheta * b;
-        double cNew = cosTheta * c - sinTheta * d;
-        double dNew = sinTheta * c + cosTheta * d;
+        double aNew = Math.Round((cosTheta * a - sinTheta * b), 2);
+        double bNew = Math.Round((sinTheta * a + cosTheta * b), 2);
+        double cNew = Math.Round((cosTheta * c - sinTheta * d), 2);
+        double dNew = Math.Round((sinTheta * c + cosTheta * d), 2);
 
         return new double[,] { { aNew, bNew }, { cNew, dNew } };
     }
