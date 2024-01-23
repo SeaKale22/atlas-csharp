@@ -32,6 +32,16 @@ class Queue<T>
             this.head = newNode;
             this.count += 1;
         }
+        Node current = this.head;
+        while (current != null)
+        {
+            if (current.next == null)
+            {
+                this.tail = current;
+                break;
+            }
+            current = current.next;
+        }
     }
 
     /// <summary> returns count in queue </summary>
