@@ -23,7 +23,7 @@ namespace InventoryLibrary
             this.updated_at = DateTime.Now;
             if (Name == null)
             {
-                throw new Exception("Name is required")
+                throw new ArgumentNullException(nameof(Name),"Name is required.")
             }
             this.name = Name;
             this.description = Description;

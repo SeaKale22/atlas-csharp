@@ -14,13 +14,21 @@ namespace InventoryLibrary
         public int quantity;
 
         /// <summary> Invetory constructor </summary>
-        public Inventory(User, Item, Quantity = 1)
+        public Inventory(User user, Item item, int Quantity = 1)
         {
             this.id = Guid.NewGuid().ToString();
             this.created_at = DateTime.Now;
             this.updated_at = DateTime.Now;
-            this.user_id = User.id;
-            this.item_id = Item.id;
+            if (user == null)
+                {
+                    throw new ArgumentNullException(nameof(user), "User is required");
+                }
+            if (item == null)
+            {
+                throw new ArgumentNullException(nameof(item), "Item is required");
+            }
+            this.user_id = user.id;
+            this.item_id = item.id;
             if (quantity <= 0)
             {
                 throw new Exception("Quantity must be greater than 0.")
