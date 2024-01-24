@@ -2,6 +2,9 @@
 
 namespace InventoryLibrary
 {
+    /// <summary>
+    /// base class
+    /// </summary>
     public class BaseClass
     {
         public string id;
