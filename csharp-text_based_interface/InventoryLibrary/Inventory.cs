@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using Math;
 
 namespace InventoryLibrary
 {
@@ -17,8 +16,8 @@ namespace InventoryLibrary
         public Inventory(User user, Item item, int quantity = 1)
         {
             this.id = Guid.NewGuid().ToString();
-            this.created_at = DateTime.Now;
-            this.updated_at = DateTime.Now;
+            this.date_created = DateTime.Now;
+            this.date_updated = DateTime.Now;
             if (user == null)
                 {
                     throw new ArgumentNullException(nameof(user), "User is required");
@@ -31,7 +30,7 @@ namespace InventoryLibrary
             this.item_id = item.id;
             if (quantity <= 0)
             {
-                throw new Exception("Quantity must be greater than 0.")
+                throw new Exception("Quantity must be greater than 0.");
             }
             this.quantity = quantity;
             

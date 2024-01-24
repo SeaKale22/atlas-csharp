@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using Math;
 
 namespace InventoryLibrary
 {
@@ -15,11 +14,11 @@ namespace InventoryLibrary
         public User(string name)
         {
             this.id = Guid.NewGuid().ToString();
-            this.created_at = DateTime.Now;
-            this.updated_at = DateTime.Now;
+            this.date_created = DateTime.Now;
+            this.date_updated = DateTime.Now;
             if (name == null)
             {
-                throw new ArgumentNullException(nameof(name),"Name is required.")
+                throw new ArgumentNullException(nameof(name),"Name is required.");
             }
             this.name = name;
         }

@@ -1,0 +1,9 @@
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryLibrary/bin/Debug/netstandard2.0/InventoryLibrary.deps.json
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryLibrary/bin/Debug/netstandard2.0/InventoryLibrary.dll
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryLibrary/bin/Debug/netstandard2.0/InventoryLibrary.pdb
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryLibrary/obj/Debug/netstandard2.0/InventoryLibrary.csprojAssemblyReference.cache
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryLibrary/obj/Debug/netstandard2.0/InventoryLibrary.csproj.CoreCompileInputs.cache
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryLibrary/obj/Debug/netstandard2.0/InventoryLibrary.AssemblyInfoInputs.cache
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryLibrary/obj/Debug/netstandard2.0/InventoryLibrary.AssemblyInfo.cs
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryLibrary/obj/Debug/netstandard2.0/InventoryLibrary.dll
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryLibrary/obj/Debug/netstandard2.0/InventoryLibrary.pdb
