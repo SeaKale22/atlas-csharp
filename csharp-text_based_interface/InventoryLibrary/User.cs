@@ -12,16 +12,16 @@ namespace InventoryLibrary
         public string name;
 
         /// <summary> User constructor </summary>
-        public User(string Name)
+        public User(string name)
         {
             this.id = Guid.NewGuid().ToString();
             this.created_at = DateTime.Now;
             this.updated_at = DateTime.Now;
-            if (Name == null)
+            if (name == null)
             {
-                throw new ArgumentNullException(nameof(Name),"Name is required.")
+                throw new ArgumentNullException(nameof(name),"Name is required.")
             }
-            this.name = Name;
+            this.name = name;
         }
 
     }

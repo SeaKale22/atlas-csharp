@@ -14,7 +14,7 @@ namespace InventoryLibrary
         public int quantity;
 
         /// <summary> Invetory constructor </summary>
-        public Inventory(User user, Item item, int Quantity = 1)
+        public Inventory(User user, Item item, int quantity = 1)
         {
             this.id = Guid.NewGuid().ToString();
             this.created_at = DateTime.Now;
@@ -33,7 +33,7 @@ namespace InventoryLibrary
             {
                 throw new Exception("Quantity must be greater than 0.")
             }
-            this.quantity = Quantity;
+            this.quantity = quantity;
             
         }
 

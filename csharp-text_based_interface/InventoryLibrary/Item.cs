@@ -16,18 +16,18 @@ namespace InventoryLibrary
         public List<string> tags;
 
         /// <summary> Item constructor </summary>
-        public Item(string Name, string Description = "", float Price = 0.00, List<string> Tags = null)
+        public Item(string name, string description = "", float price = 0.00, List<string> tags = null)
         {
             this.id = Guid.NewGuid().ToString();
             this.created_at = DateTime.Now;
             this.updated_at = DateTime.Now;
-            if (Name == null)
+            if (name == null)
             {
-                throw new ArgumentNullException(nameof(Name),"Name is required.")
+                throw new ArgumentNullException(nameof(name),"Name is required.")
             }
-            this.name = Name;
-            this.description = Description;
-            this.price = Math.Round(Price, 2);
+            this.name = name;
+            this.description = description;
+            this.price = Math.Round(price, 2);
             this.tags = tags ?? new List<string>();
         }
 
