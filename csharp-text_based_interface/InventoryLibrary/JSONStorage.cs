@@ -31,10 +31,30 @@ namespace InventoryLibrary
             objects[key] = obj;
         }
 
+        /// <summary>
+        /// save objects
+        /// </summary>
         public void Save()
         {
             string json = JsonSerializer.Serialize(objects);
             File.WriteAllText("storage/inventory_manager.json", json);
+        }
+
+        /// <summary>
+        /// load objects
+        /// </summary>
+        public void Load()
+        {
+            try
+            {
+                string json = File.ReadAllText("storage/inventory_manager.json");
+                objects = JsonSerializer.Deserialize<Dictionary<string, BaseClass>>(json);
+            }
+            catch (FileNotFoundException)
+            {
+                // Handle the case where the file is not found (initial load)
+                objects = new Dictionary<string, BaseClass>();
+            }
         }
     }
 }
