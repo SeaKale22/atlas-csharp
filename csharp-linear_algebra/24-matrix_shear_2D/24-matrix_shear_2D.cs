@@ -23,17 +23,18 @@ class MatrixMath
         if (direction == 'x')
         {
             shearMatrix[0, 0] = 1;
-            shearMatrix[0, 1] = factor;
-            shearMatrix[1, 0] = 0;
+            shearMatrix[0, 1] = 0;
+            shearMatrix[1, 0] = factor;
             shearMatrix[1, 1] = 1;
         }
         else if (direction == 'y')
         {
             shearMatrix[0, 0] = 1;
-            shearMatrix[0, 1] = 0;
-            shearMatrix[1, 0] = factor;
+            shearMatrix[0, 1] = factor;
+            shearMatrix[1, 0] = 0;
             shearMatrix[1, 1] = 1;
         }
+
         double[,] resultMatrix = MultiplyMatrix(matrix, shearMatrix);
 
         return resultMatrix;
