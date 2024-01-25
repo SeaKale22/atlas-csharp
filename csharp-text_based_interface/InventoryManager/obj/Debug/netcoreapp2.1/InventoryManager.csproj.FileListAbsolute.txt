@@ -1,0 +1,14 @@
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryManager/obj/Debug/netcoreapp2.1/InventoryManager.csprojAssemblyReference.cache
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryManager/obj/Debug/netcoreapp2.1/InventoryManager.csproj.CoreCompileInputs.cache
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryManager/obj/Debug/netcoreapp2.1/InventoryManager.AssemblyInfoInputs.cache
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryManager/obj/Debug/netcoreapp2.1/InventoryManager.AssemblyInfo.cs
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryManager/bin/Debug/netcoreapp2.1/InventoryManager.deps.json
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryManager/bin/Debug/netcoreapp2.1/InventoryManager.runtimeconfig.json
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryManager/bin/Debug/netcoreapp2.1/InventoryManager.runtimeconfig.dev.json
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryManager/bin/Debug/netcoreapp2.1/InventoryManager.dll
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryManager/bin/Debug/netcoreapp2.1/InventoryManager.pdb
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryManager/bin/Debug/netcoreapp2.1/InventoryLibrary.dll
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryManager/bin/Debug/netcoreapp2.1/InventoryLibrary.pdb
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryManager/obj/Debug/netcoreapp2.1/InventoryManager.csproj.CopyComplete
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryManager/obj/Debug/netcoreapp2.1/InventoryManager.dll
+/home/seakale/atlas_work/atlas-csharp/csharp-text_based_interface/InventoryManager/obj/Debug/netcoreapp2.1/InventoryManager.pdb

@@ -299,6 +299,9 @@
       "InventoryLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Text.Json": "8.0.1"
+        },
         "compile": {
           "bin/placeholder/InventoryLibrary.dll": {}
         },
@@ -1037,7 +1040,7 @@
     ".NETCoreApp,Version=v2.1": [
       "InventoryLibrary >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0",
-      "System.Text.Json"
+      "System.Text.Json >= 8.0.1"
     ]
   },
   "packageFolders": {
@@ -1090,7 +1093,7 @@
           },
           "System.Text.Json": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[8.0.1, )"
           }
         },
         "imports": [
